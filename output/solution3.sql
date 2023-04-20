@@ -1,0 +1,1 @@
+select segment , count(distinct product_code) as count from dim_product group by segment order by count desc;
